@@ -1,0 +1,260 @@
+{
+    "data": [
+        {
+            "title": "What the artist got",
+            "agency": "Holler",
+            "client": "Songeist",
+            "overview": "",
+            "tools": "jQuery, Sass, Backbone.js, Grunt, Git.",
+            "visit": "Site unavailable",
+            "url": null,
+            "images": [
+                "img/temp/img_ebay01.jpg",
+                "img/temp/img_ebay02.jpg",
+                "img/temp/img_ebay03.jpg",
+                "img/temp/img_ebay04.jpg",
+                "img/temp/img_ebay05.jpg",
+                "img/temp/img_ebay06.jpg"
+            ]
+        },
+        {
+            "title": "Whatever inspires you this Christmas",
+            "agency": "Essence Digital",
+            "client": "eBay",
+            "overview": "For their Christmas campaign eBay Europe wanted to engage the public in a fun Christmas mood board creating competition. Users can pick from a list of images and create a board that sums up their feelings about Christmas. The site would support six languages and would go out across Europe",
+            "responsibilites": "Using the backbone framework I was to create the site and give it a web app feel. I was the sole front-end developer on this project and therefore had to manage all front-end related tasks.",
+            "tools": "jQuery, Sass, Backbone.js, Grunt, Git.",
+            "visit": "Visit site",
+            "url": "http://inspiration.ebay.eu/",
+            "images": [
+                "img/temp/img_ebay01.jpg",
+                "img/temp/img_ebay02.jpg",
+                "img/temp/img_ebay03.jpg",
+                "img/temp/img_ebay04.jpg",
+                "img/temp/img_ebay05.jpg",
+                "img/temp/img_ebay06.jpg"
+            ]
+        },
+        {
+            "title": "Season's Greetings",
+            "agency": "Addison Group",
+            "client": "BG Group",
+            "overview": "For Christmas BG Group wanted to send out an animated Season's Greeting card. As the user scrolled animated elements would pass across the screen.",
+            "responsibilites": "To animate the Season's Greeting card using technology the would be supported back to IE8, so no CSS animation (sad face).",
+            "tools": "jQuery, Less.",
+            "visit": "Site unavailable",
+            "url": null,
+            "images": [
+                "img/temp/img_bggroup01.jpg",
+                "img/temp/img_bggroup02.jpg"
+            ]
+        },
+        {
+            "title": "20 Things 2013",
+            "agency": "Syzygy",
+            "client": "Syzygy",
+            "overview": "For the past 3 years Syzygy have done a very successful interactive quiz where you can try and guess events that have happened from the past year. They felt it was long over due a make over.",
+            "responsibilites": "To support all devices and create slick animations that make it feel more in tread with modern sites.",
+            "tools": "jQuery, Sass, CSS animations, Backbone.js, Grunt.",
+            "visit": "Visit site",
+            "url": "http://20things.syzygy.net/",
+            "images": [
+                "img/temp/img_syzygy01.jpg"
+            ]
+        },
+        {
+            "title": "Fall Collection Interactive Advert",
+            "agency": "Leagas Delaney",
+            "client": "Timberland",
+            "overview": "Timberland had recorded an advert for their upcoming Fall Collection and they wanted to make it interactive to showcase the fall (autumn) range.",
+            "responsibilites": "To work closely with the Art Director and produce an interactive video using multiple techniques that made the most of the supplied assets.",
+            "tools": "jQuery, Sass, CSS animations, Phonegap, Grunt.",
+            "visit": "Site unavailable",
+            "url": null,
+            "images": [
+                "img/temp/img_timberland01.jpg",
+                "img/temp/img_timberland02.jpg",
+                "img/temp/img_timberland03.jpg",
+                "img/temp/img_timberland04.jpg",
+                "img/temp/img_timberland05.jpg",
+                "img/temp/img_timberland06.jpg"
+            ]
+        },
+        {
+            "title": "Stay Longer. Discover More. Pay Less.",
+            "agency": "Leagas Delaney",
+            "client": "InterContinental",
+            "overview": "Interactive advert to be placed in multiple tablet magazine apps.",
+            "responsibilites": "Piece together the interactive parts to be fully optimized to work perfectly across multiple tablet devices.",
+            "tools": "jQuery, Sass, CSS animation, Phonegap, Grunt.",
+            "visit": "Site unavailable",
+            "url": null,
+            "images": [
+                "img/temp/img_inter01.jpg",
+                "img/temp/img_inter02.jpg",
+                "img/temp/img_inter03.jpg"
+            ]
+        },
+        {
+            "title": "Global websites redesign",
+            "agency": "Leagas Delaney",
+            "client": "Leagas Delaney",
+            "overview": "As the old Leagas Delaney was behind on modern day site standards a full redesign was is order.",
+            "responsibilites": "I would be on hand to help structure the project and advise from the start. I was then to implement the chosen design and integrate it into a CMS (Modx). This design was to go out across all of Leagas Delaney's global offices as well as localised versions, eight sites in total represented by their own unique color scheme.",
+            "tools": "jQuery, Sass, Gid, Grunt, Modx.",
+            "visit": "Visit site",
+            "url": "http://www.leagasdelaney.co.uk/",
+            "images": [
+                "img/temp/img_leagas01.jpg",
+                "img/temp/img_leagas02.jpg",
+                "img/temp/img_leagas03.jpg",
+                "img/temp/img_leagas04.jpg",
+                "img/temp/img_leagas05.jpg",
+                "img/temp/img_leagas06.jpg",
+                "img/temp/img_leagas07.jpg",
+                "img/temp/img_leagas08.jpg",
+                "img/temp/img_leagas09.jpg",
+                "img/temp/img_leagas10.jpg"
+            ]
+        },
+        {
+            "title": "The Wheel of Om Nom",
+            "agency": "Leagas Delaney",
+            "client": "Leagas Delaney",
+            "overview": "A small free app that lets you find a random place to eat in the Fitzrovia area of Central London.",
+            "responsibilites": "Produce a HTML app that would be uploaded to the Apple app store. I used Phonegap as the app wrapper for this project.",
+            "tools": "jQuery, Sass, Grunt, Backbone.js, Phonegap.",
+            "visit": "Get app",
+            "url": "https://itunes.apple.com/us/app/wheel-of-om-nom/id668609901?mt=8",
+            "images": [
+                "img/temp/img_woom01.jpg",
+                "img/temp/img_woom02.jpg",
+                "img/temp/img_woom03.jpg"
+            ]
+        },
+        {
+            "title": "The Helicon",
+            "agency": "Bandstand",
+            "client": "The Helicon",
+            "overview": "A site that promotes the newly refurbished Helicon building and surrounding area of the City of London.",
+            "responsibilites": "Sole developer of a simple HTML site with minimal interactive elements.",
+            "tools": "jQuery, Sass, Grunt.",
+            "visit": "Visit site",
+            "url": "http://www.helicon-ec2.co.uk/",
+            "images": [
+                "img/temp/img_helicon01.jpg",
+                "img/temp/img_helicon02.jpg",
+                "img/temp/img_helicon03.jpg",
+                "img/temp/img_helicon04.jpg"
+            ]
+        },
+        {
+            "title": "33 Regents Street",
+            "agency": "Bandstand",
+            "client": "Cushman & Wakefield",
+            "overview": "A site that promotes the newly refurbished 33 Regents Street building and surrounding area of Piccadilly Circus.",
+            "responsibilites": "Sole developer of a simple HTML site with minimal interactive elements.",
+            "tools": "jQuery, Sass, Grunt.",
+            "visit": "Visit site",
+            "url": "http://33regentstreet.co.uk/",
+            "images": [
+                "img/temp/img_regents01.jpg",
+                "img/temp/img_regents02.jpg",
+                "img/temp/img_regents03.jpg"
+            ]
+        },
+        {
+            "title": "XF Sportbrake",
+            "agency": "Spark 44",
+            "client": "Jaguar",
+            "overview": "Interactive advert to be placed in multiple tablet magazine apps.",
+            "responsibilites": "Piece together the interactive parts to be fully optimized to work perfectly across multiple tablet devices. Making use of the motion sensors of the iPad.",
+            "tools": "jQuery, Sass.",
+            "visit": "Website unavailable",
+            "url": null,
+            "images": [
+                "img/temp/img_jaguar01.jpg",
+                "img/temp/img_jaguar02.jpg",
+                "img/temp/img_jaguar03.jpg",
+                "img/temp/img_jaguar04.jpg"
+            ]
+        },
+        {
+            "title": "New site redesign and full rebuild.",
+            "agency": "Hugo&Cat",
+            "client": "M&G",
+            "overview": "New site redesign and full rebuild.",
+            "responsibilites": "I was on hand to prototype interactive elements, like the carousel and to help organise the project from the beginning. I helped form project time lines and site structure. I set up the site structure, built a few templates and modules to help get the project moving.",
+            "tools": "jQuery, Sass, Grunt, SVN.",
+            "visit": "Visit site",
+            "url": "http://www.mandg.co.uk/",
+            "images": [
+                "img/temp/img_mandg01.jpg"
+            ]
+        },
+        {
+            "title": "New Responsive Site",
+            "agency": "Hugo&Cat",
+            "client": "Hugo&Cat",
+            "overview": "Full site redesign and built using modern standards such as responsive design.",
+            "responsibilites": "Full front-end responsive build with some heavy interactive elements and animation.",
+            "tools": "jQuery, Sass, Grunt, SVN.",
+            "visit": "Visit site",
+            "url": "http://www.hugoandcat.com/",
+            "images": [
+                "img/temp/img_hugo01.jpg",
+                "img/temp/img_hugo02.jpg",
+                "img/temp/img_hugo03.jpg",
+                "img/temp/img_hugo04.jpg",
+                "img/temp/img_hugo05.jpg",
+                "img/temp/img_hugo06.jpg",
+                "img/temp/img_hugo07.jpg"
+            ]
+        },
+        {
+            "title": "50th Anniversary",
+            "agency": "Precedent",
+            "client": "University of York",
+            "overview": "The 50th Anniversary of the University of York was approaching and they wanted a site to help promote what achievements have happened over the past 50 years at the university.",
+            "responsibilites": "Full front-end build with a BBC style carousel on the homepage.",
+            "tools": "jQuery, Sass.",
+            "visit": "Visit site",
+            "url": "http://www.york.ac.uk/50/",
+            "images": [
+                "img/temp/img_york01.jpg",
+                "img/temp/img_york02.jpg",
+                "img/temp/img_york03.jpg"
+            ]
+        },
+        {
+            "title": "GSM London",
+            "agency": "Precedent",
+            "client": "GSM London",
+            "overview": "A new website as part of a rebrand for GSM London.",
+            "responsibilites": "Full front-end responsive build.",
+            "tools": "jQuery, Sass.",
+            "visit": "Visit site",
+            "url": "http://gsm.org.uk/en/",
+            "images": [
+                "img/temp/img_gsm01.jpg",
+                "img/temp/img_gsm02.jpg"
+            ]
+        },
+        {
+            "title": "Experience 123",
+            "agency": "Bandstand",
+            "client": "Land Securities",
+            "overview": "An interactive timeline with CSS animations for the 123 Victoria Street website.",
+            "responsibilites": "Built the interactive timeline with a mix of CSS and jQuery animations.",
+            "tools": "jQuery, Sass, CSS animations.",
+            "visit": "Visit site",
+            "url": "http://www.123victoriast.com/",
+            "images": [
+                "img/temp/img_victoria01.jpg",
+                "img/temp/img_victoria02.jpg",
+                "img/temp/img_victoria03.jpg",
+                "img/temp/img_victoria04.jpg"
+            ]
+        }
+    ]
+}

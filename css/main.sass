@@ -1,0 +1,543 @@
+@import "reset"
+
+$bgGrey: #f1f1f1
+$lightGrey: #ccc
+$midGrey: #666
+$darkGrey: #333
+$green: #03a581
+$red: #ff5944
+
+html
+	background-color: $bgGrey
+	color: $darkGrey
+	font-family: 'Montserrat', sans-serif
+	width: 100%
+
+body
+	margin: 0 auto
+
+h1
+	font-size: 3em
+	font-weight: bold
+	text-align: center
+
+h2
+	font-size: 1.1em
+	color: $midGrey
+	text-align: center
+	margin-top: 0.5em
+
+h3
+	color: $green
+	text-align: center
+	display: block
+	border-bottom: 1px solid $lightGrey
+	margin: 0 20px 1em 20px
+	height: 0.4em
+	font-size: 1.4em
+	span
+		background-color: $bgGrey
+		display: inline-block
+		padding: 0 20px
+
+h4
+	color: $midGrey
+	text-transform: uppercase
+	margin-bottom: 20px
+
+#main
+	margin: 0 auto
+	text-shadow: 0 1px 0 #fff
+	padding: 0 20px
+
+header
+	margin: 4em 0
+
+section
+	overflow: hidden
+	padding: 20px
+
+.thumbnails
+	position: relative
+
+	.thumb
+		width: 300px
+		height: 300px
+		float: left
+		margin: 0 20px 20px 0
+		background-color: $darkGrey
+		-webkit-border-radius: 5px
+		-moz-border-radius: 5px
+		border-radius: 5px
+		position: relative
+		overflow: hidden
+		&.hide
+			visibility: hidden
+		&:hover
+			img
+				opacity: 1
+			i
+				bottom: 20px
+		img
+			opacity: 0.7
+			-webkit-transition: opacity 0.5s
+			-moz-transition: opacity 0.5s
+			-ms-transition: opacity 0.5s
+			-o-transition: opacity 0.5s
+			transition: opacity 0.5s
+		i
+			background-color: $green
+			-webkit-border-radius: 5px
+			-moz-border-radius: 5px
+			border-radius: 5px
+			color: #fff
+			position: absolute
+			bottom: -60px
+			right: 20px
+			z-index: 1
+			padding: 10px 12px
+			font-size: 2em
+			cursor: pointer
+			-webkit-transition: all 0.5s
+			-moz-transition: all 0.5s
+			-ms-transition: all 0.5s
+			-o-transition: all 0.5s
+			transition: all 0.5s
+			text-shadow: none
+			&:hover
+				background-color: darken($green, 10)
+
+	.description
+		width: 220px
+		// width: 260px
+		left: 20px
+		top: 20px
+		padding: 20px
+		background-color: #fff
+		position: absolute
+		z-index: 1
+
+		p
+			color: lighten($midGrey, 35)
+			line-height: 1.5em
+			&:first-child
+				color: $midGrey
+				text-transform: uppercase
+			&.client
+				font-family: 'Open Sans', sans-serif
+				font-style: italic
+				font-size: 0.8em
+				margin-top: 5px
+
+	ul.devices
+		color: #fff
+		text-shadow: none
+		bottom: 18px
+		left: 20px
+		position: absolute
+		font-size: 1.2em
+		z-index: 1
+		
+		li
+			margin-right: 13px
+
+.about
+
+	p
+		margin: 1em 0
+		line-height: 1.75em
+		color: $midGrey
+		padding: 0 15%
+
+	.contact
+		width: 326px
+		margin: 40px auto
+		overflow: hidden
+
+		li
+			float: left
+			margin-right: 40px
+			&:last-child
+				margin-right: 0
+		a
+			text-decoration: none
+			text-shadow: none
+			color: #fff
+			text-align: center
+			line-height: 1.9em
+			padding: 10px
+			font-size: 2em
+			width: 60px
+			height: 60px
+			-webkit-border-radius: 40px
+			-moz-border-radius: 40px
+			border-radius: 40px
+			background-color: $green
+			border: 1px solid lighten($lightGrey, 11)
+			-webkit-transition: background-color 0.5s
+			-moz-transition: background-color 0.5s
+			-ms-transition: background-color 0.5s
+			-o-transition: background-color 0.5s
+			transition: background-color 0.5s
+			&:hover
+				background-color: darken($green, 10)
+
+.toolkit
+	.row
+		overflow: hidden
+		padding: 30px 0
+		&:nth-child(1n)
+			padding-left: 89px
+		&:nth-child(2n)
+			padding-left: 44px
+		a:last-child
+			margin-right: 0
+
+	a
+		position: relative
+		display: inline-block
+		float: left
+		margin-right: 50px
+		img
+			width: 100%
+		img:nth-child(2n)
+			opacity: 0
+			position: absolute
+			top: 0
+			left: 0
+			-webkit-transition: opacity 0.5s
+			-moz-transition: opacity 0.5s
+			-ms-transition: opacity 0.5s
+			-o-transition: opacity 0.5s
+			transition: opacity 0.5s
+		&:hover img:nth-child(2n)
+			opacity: 1
+
+.project
+	padding: 40px
+	background-color: #fff
+	-webkit-border-radius: 5px
+	-moz-border-radius: 5px
+	border-radius: 5px
+	width: 860px
+	height: 540px
+	position: absolute
+	top: 20px
+	z-index: 1
+	-webkit-animation-duration: 0.4s
+	-moz-animation-duration: 0.4s
+	-ms-animation-duration: 0.4s
+	-o-animation-duration: 0.4s
+	animation-duration: 0.4s
+	-webkit-animation-timing-function: ease-out
+	-webkit-transform-origin: 50% 50%
+
+	a
+		color: #fff
+		background-color: $green
+		-webkit-border-radius: 5px
+		-moz-border-radius: 5px
+		border-radius: 5px
+		padding: 10px 15px
+		line-height: 1.2em
+		font-size: 1em
+		text-shadow: none
+		text-decoration: none
+		-webkit-transition: background-color 0.5s
+		-moz-transition: background-color 0.5s
+		-ms-transition: background-color 0.5s
+		-o-transition: background-color 0.5s
+		transition: background-color 0.5s
+		position: absolute
+		bottom: 40px
+		left: 40px
+		&:hover
+			background-color: darken($green, 10)
+		&.disabled
+			background-color: $midGrey
+			&:hover
+				background-color: $midGrey
+
+
+	i
+		-webkit-transition: color 0.5s
+		-moz-transition: color 0.5s
+		-ms-transition: color 0.5s
+		-o-transition: color 0.5s
+		transition: color 0.5s
+
+	p
+		color: $midGrey
+		margin-bottom: 1em
+		line-height: 1.5em
+		padding-right: 40px
+		font-size: 0.9em
+		&.small
+			font-family: 'Open Sans', sans-serif
+			font-style: italic
+			font-size: 0.8em
+			margin-bottom: 0
+			color: lighten($midGrey, 35)
+
+	.info
+		float: left
+		width: 50%
+
+	i
+		color: $green
+		font-size: 2em
+		cursor: pointer
+		text-shadow: none
+		&:last-child
+			margin-right: 0
+		&:hover
+			color: darken($green, 10)
+		&.fa-times-circle
+			font-size: 2.1em
+			position: absolute
+			top: 39px
+			right: 40px
+		&.fa-chevron-left
+			margin-right: 10px
+		&.fa-chevron-right
+			margin-left: 6px
+		&.pagi
+			font-size: 1em
+			vertical-align: middle
+			margin: -13px 4px 0 0
+			cursor: default
+			&:hover
+				color: $green
+			&:before
+				content: "\f10c"
+			&.active:before
+				content: "\f111"
+
+	.carousel
+		float: right
+		width: 50%
+
+		.controls
+			width: 100%
+			margin-bottom: 18px
+
+		.window
+			width: 428px
+			height: 488px
+			border: 1px solid $lightGrey
+			overflow: hidden
+			position: relative
+
+		img
+			display: none
+			position: absolute
+			top: 0
+			left: 0
+			-webkit-transform: translatez(0)
+			-moz-transform: translatez(0)
+			-ms-transform: translatez(0)
+			-o-transform: translatez(0)
+			transform: translatez(0)
+			&.active
+				display: block
+
+	&.grow-in
+		-webkit-animation-name: growIn
+
+	&.grow-out
+		-webkit-animation-name: growOut
+
+@-webkit-keyframes growIn
+	0%
+		-webkit-transform: scale(0, 0)
+		opacity: 0
+	50%
+		opacity: 1
+	100%
+		-webkit-transform: scale(1, 1)
+
+@-webkit-keyframes growOut
+	0%
+		-webkit-transform: scale(1, 1)
+	50%
+		opacity: 1
+	100%
+		-webkit-transform: scale(0, 0)
+		opacity: 0
+
+@media screen and (min-width: 1035px)
+	body
+		width: 1020px
+
+	.thumbnails .thumb:nth-child(3n)
+		margin-right: 0
+
+	.toolkit
+		a
+			&.jquery
+				width: 228px
+				margin-top: 25px
+			&.sass
+				width: 135px
+			&.modx
+				width: 133px
+			&.sublime
+				width: 111px
+				margin-top: 7px
+			&.git
+				width: 156px
+				margin-top: 30px
+			&.grunt
+				width: 113px
+			&.backbone
+				width: 320px
+				margin-top: 30px
+			&.ember
+				width: 120px
+				margin-top: 10px
+
+@media screen and (max-width: 1034px)
+	body
+		width: 660px
+
+	header
+		margin: 3em 0
+
+	#main
+		padding: 0
+
+	.thumbnails
+		.thumb
+			&:nth-child(2n)
+				margin-right: 0
+
+		.project
+			width: 540px
+			.carousel
+				display: none
+			.info
+				width: auto
+
+	.toolkit
+		.row
+			overflow: hidden
+			padding: 30px 0
+			&:nth-child(1n)
+				padding-left: 44.5px
+			&:nth-child(2n)
+				padding-left: 6.5px
+		a
+			margin-right: 25px
+			&.jquery
+				width: 171px
+				margin-top: 18px
+			&.sass
+				width: 101.25px
+			&.modx
+				width: 99.75px
+			&.sublime
+				width: 83.25px
+				margin-top: 4px
+			&.git
+				width: 117px
+				margin-top: 25px
+			&.grunt
+				width: 84.75px
+			&.backbone
+				width: 240px
+				margin-top: 25px
+			&.ember
+				width: 90px
+				margin-top: 10px
+
+	.about
+		p
+			padding: 0
+
+@media screen and (max-width: 674px)
+	body
+		width: 340px
+
+	h3
+		font-size: 1.2em
+
+	h4
+		margin-bottom: 10px
+		line-height: 1.5em
+		padding-right: 40px
+
+	header
+		margin: 2em 0
+
+	.thumbnails 
+		.thumb
+			margin-right: 0
+			&:last-child
+				display: block
+
+		.project
+			width: 260px
+			height: 580px
+			padding: 20px
+
+			p
+				font-size: 0.8em
+				padding: 0
+				margin-bottom: 0.9em
+				&.small
+					margin-bottom: 0
+
+			.info
+				a
+					left: 20px
+					bottom: 20px
+					width: 230px
+					font-size: 0.9em
+					text-align: center
+
+			i.fa-times-circle
+				right: 20px
+				top: 19px
+
+	.toolkit
+		.row
+			padding: 0 !important
+		a
+			margin: 0 25px 1.5em 0
+			&.jquery
+				width: 136.8px
+				margin-top: 14px
+				margin-left: 28.5px
+			&.sass
+				width: 81px
+			&.modx
+				width: 79.8px
+				margin-left: 64px
+			&.sublime
+				width: 66.6px
+				margin-top: 5px
+			&.git
+				width: 93.6px
+				margin-top: 21px
+				margin-left: 56.5px
+			&.grunt
+				width: 67.8px
+			&.backbone
+				width: 192px
+				margin-top: 17px
+				margin-left: 5.5px
+			&.ember
+				width: 72px
+				margin-top: 0
+			&:nth-child(2n)
+				margin-right: 0
+
+	.about
+		.contact
+			li
+				margin-right: 35px
+			a
+				width: 55px
+				height: 55px
+				line-height: 2.3em
+				font-size: 1.5em
