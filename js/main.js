@@ -13,9 +13,9 @@ var kw;
         rowAmount,
         thumbOffset;
 
-    loadData = function (url) {
-        $.getJSON(url, function(d) {
-            showProject(d);
+    loadData = function (i) {
+        $.getJSON('data/data.json', function(d) {
+            showProject(d.data[index]);
         });
     };
 
@@ -27,7 +27,7 @@ var kw;
                     $('.fa-times-circle').click();
                     otherClose = true;
                 }
-                else loadData($(this).data('href'));
+                else loadData();
             }
         });
     };
@@ -102,18 +102,6 @@ var kw;
         animating = false;
     };
 
-    doTools = function (t) {
-        var tools = t.split(','),
-            string = '';
-
-        for (var i = 0; i < tools.length; i++) {
-            if (i < tools.length - 1) string += tools[i] + ', ';
-            else string += tools[i] + '.';
-        };
-
-        return string;
-    };
-
     showProject = function (d) {
         var $section;
             
@@ -132,8 +120,6 @@ var kw;
             .on('MSAnimationEnd', growEnd)
             .on('webkitAnimationEnd', growEnd);
 
-        doTools(d.tools);
-
         $section.append(
             '<div class="info">' +
                 '<h4>' + d.title + '</h4>' +
@@ -146,7 +132,7 @@ var kw;
                 '<p class="small">Responsibilites</p>' +
                 '<p>' + d.responsibilites + '</p>' +
                 '<p class="small">Tools used</p>' +
-                '<p>' + doTools(d.tools) + '</p>' +
+                '<p>' + d.tools + '</p>' +
                 '<a href="' + d.url + '" target="_blank">' + d.visit + '</a>' +
             '</div>' +
             '<div class="carousel">' +

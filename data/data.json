@@ -5,16 +5,17 @@
             "agency": "Holler",
             "client": "Songeist",
             "overview": "",
+            "responsibilites": "",
             "tools": "jQuery, Sass, Backbone.js, Grunt, Git.",
             "visit": "Site unavailable",
             "url": null,
             "images": [
-                "img/temp/img_ebay01.jpg",
-                "img/temp/img_ebay02.jpg",
-                "img/temp/img_ebay03.jpg",
-                "img/temp/img_ebay04.jpg",
-                "img/temp/img_ebay05.jpg",
-                "img/temp/img_ebay06.jpg"
+                "img/work/img_ebay01.jpg",
+                "img/work/img_ebay02.jpg",
+                "img/work/img_ebay03.jpg",
+                "img/work/img_ebay04.jpg",
+                "img/work/img_ebay05.jpg",
+                "img/work/img_ebay06.jpg"
             ]
         },
         {
@@ -27,12 +28,12 @@
             "visit": "Visit site",
             "url": "http://inspiration.ebay.eu/",
             "images": [
-                "img/temp/img_ebay01.jpg",
-                "img/temp/img_ebay02.jpg",
-                "img/temp/img_ebay03.jpg",
-                "img/temp/img_ebay04.jpg",
-                "img/temp/img_ebay05.jpg",
-                "img/temp/img_ebay06.jpg"
+                "img/work/img_ebay01.jpg",
+                "img/work/img_ebay02.jpg",
+                "img/work/img_ebay03.jpg",
+                "img/work/img_ebay04.jpg",
+                "img/work/img_ebay05.jpg",
+                "img/work/img_ebay06.jpg"
             ]
         },
         {
@@ -45,8 +46,8 @@
             "visit": "Site unavailable",
             "url": null,
             "images": [
-                "img/temp/img_bggroup01.jpg",
-                "img/temp/img_bggroup02.jpg"
+                "img/work/img_bggroup01.jpg",
+                "img/work/img_bggroup02.jpg"
             ]
         },
         {
@@ -59,7 +60,7 @@
             "visit": "Visit site",
             "url": "http://20things.syzygy.net/",
             "images": [
-                "img/temp/img_syzygy01.jpg"
+                "img/work/img_syzygy01.jpg"
             ]
         },
         {
@@ -72,12 +73,12 @@
             "visit": "Site unavailable",
             "url": null,
             "images": [
-                "img/temp/img_timberland01.jpg",
-                "img/temp/img_timberland02.jpg",
-                "img/temp/img_timberland03.jpg",
-                "img/temp/img_timberland04.jpg",
-                "img/temp/img_timberland05.jpg",
-                "img/temp/img_timberland06.jpg"
+                "img/work/img_timberland01.jpg",
+                "img/work/img_timberland02.jpg",
+                "img/work/img_timberland03.jpg",
+                "img/work/img_timberland04.jpg",
+                "img/work/img_timberland05.jpg",
+                "img/work/img_timberland06.jpg"
             ]
         },
         {
@@ -90,9 +91,9 @@
             "visit": "Site unavailable",
             "url": null,
             "images": [
-                "img/temp/img_inter01.jpg",
-                "img/temp/img_inter02.jpg",
-                "img/temp/img_inter03.jpg"
+                "img/work/img_inter01.jpg",
+                "img/work/img_inter02.jpg",
+                "img/work/img_inter03.jpg"
             ]
         },
         {
@@ -105,16 +106,16 @@
             "visit": "Visit site",
             "url": "http://www.leagasdelaney.co.uk/",
             "images": [
-                "img/temp/img_leagas01.jpg",
-                "img/temp/img_leagas02.jpg",
-                "img/temp/img_leagas03.jpg",
-                "img/temp/img_leagas04.jpg",
-                "img/temp/img_leagas05.jpg",
-                "img/temp/img_leagas06.jpg",
-                "img/temp/img_leagas07.jpg",
-                "img/temp/img_leagas08.jpg",
-                "img/temp/img_leagas09.jpg",
-                "img/temp/img_leagas10.jpg"
+                "img/work/img_leagas01.jpg",
+                "img/work/img_leagas02.jpg",
+                "img/work/img_leagas03.jpg",
+                "img/work/img_leagas04.jpg",
+                "img/work/img_leagas05.jpg",
+                "img/work/img_leagas06.jpg",
+                "img/work/img_leagas07.jpg",
+                "img/work/img_leagas08.jpg",
+                "img/work/img_leagas09.jpg",
+                "img/work/img_leagas10.jpg"
             ]
         },
         {
@@ -127,9 +128,9 @@
             "visit": "Get app",
             "url": "https://itunes.apple.com/us/app/wheel-of-om-nom/id668609901?mt=8",
             "images": [
-                "img/temp/img_woom01.jpg",
-                "img/temp/img_woom02.jpg",
-                "img/temp/img_woom03.jpg"
+                "img/work/img_woom01.jpg",
+                "img/work/img_woom02.jpg",
+                "img/work/img_woom03.jpg"
             ]
         },
         {
@@ -142,10 +143,10 @@
             "visit": "Visit site",
             "url": "http://www.helicon-ec2.co.uk/",
             "images": [
-                "img/temp/img_helicon01.jpg",
-                "img/temp/img_helicon02.jpg",
-                "img/temp/img_helicon03.jpg",
-                "img/temp/img_helicon04.jpg"
+                "img/work/img_helicon01.jpg",
+                "img/work/img_helicon02.jpg",
+                "img/work/img_helicon03.jpg",
+                "img/work/img_helicon04.jpg"
             ]
         },
         {
@@ -158,9 +159,9 @@
             "visit": "Visit site",
             "url": "http://33regentstreet.co.uk/",
             "images": [
-                "img/temp/img_regents01.jpg",
-                "img/temp/img_regents02.jpg",
-                "img/temp/img_regents03.jpg"
+                "img/work/img_regents01.jpg",
+                "img/work/img_regents02.jpg",
+                "img/work/img_regents03.jpg"
             ]
         },
         {
@@ -173,10 +174,10 @@
             "visit": "Website unavailable",
             "url": null,
             "images": [
-                "img/temp/img_jaguar01.jpg",
-                "img/temp/img_jaguar02.jpg",
-                "img/temp/img_jaguar03.jpg",
-                "img/temp/img_jaguar04.jpg"
+                "img/work/img_jaguar01.jpg",
+                "img/work/img_jaguar02.jpg",
+                "img/work/img_jaguar03.jpg",
+                "img/work/img_jaguar04.jpg"
             ]
         },
         {
@@ -189,7 +190,7 @@
             "visit": "Visit site",
             "url": "http://www.mandg.co.uk/",
             "images": [
-                "img/temp/img_mandg01.jpg"
+                "img/work/img_mandg01.jpg"
             ]
         },
         {
@@ -202,13 +203,13 @@
             "visit": "Visit site",
             "url": "http://www.hugoandcat.com/",
             "images": [
-                "img/temp/img_hugo01.jpg",
-                "img/temp/img_hugo02.jpg",
-                "img/temp/img_hugo03.jpg",
-                "img/temp/img_hugo04.jpg",
-                "img/temp/img_hugo05.jpg",
-                "img/temp/img_hugo06.jpg",
-                "img/temp/img_hugo07.jpg"
+                "img/work/img_hugo01.jpg",
+                "img/work/img_hugo02.jpg",
+                "img/work/img_hugo03.jpg",
+                "img/work/img_hugo04.jpg",
+                "img/work/img_hugo05.jpg",
+                "img/work/img_hugo06.jpg",
+                "img/work/img_hugo07.jpg"
             ]
         },
         {
@@ -221,9 +222,9 @@
             "visit": "Visit site",
             "url": "http://www.york.ac.uk/50/",
             "images": [
-                "img/temp/img_york01.jpg",
-                "img/temp/img_york02.jpg",
-                "img/temp/img_york03.jpg"
+                "img/work/img_york01.jpg",
+                "img/work/img_york02.jpg",
+                "img/work/img_york03.jpg"
             ]
         },
         {
@@ -236,8 +237,8 @@
             "visit": "Visit site",
             "url": "http://gsm.org.uk/en/",
             "images": [
-                "img/temp/img_gsm01.jpg",
-                "img/temp/img_gsm02.jpg"
+                "img/work/img_gsm01.jpg",
+                "img/work/img_gsm02.jpg"
             ]
         },
         {
@@ -250,10 +251,10 @@
             "visit": "Visit site",
             "url": "http://www.123victoriast.com/",
             "images": [
-                "img/temp/img_victoria01.jpg",
-                "img/temp/img_victoria02.jpg",
-                "img/temp/img_victoria03.jpg",
-                "img/temp/img_victoria04.jpg"
+                "img/work/img_victoria01.jpg",
+                "img/work/img_victoria02.jpg",
+                "img/work/img_victoria03.jpg",
+                "img/work/img_victoria04.jpg"
             ]
         }
     ]
