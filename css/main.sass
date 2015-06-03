@@ -255,9 +255,7 @@ section
 			background-color: darken($green, 10)
 		&.disabled
 			background-color: $midGrey
-			&:hover
-				background-color: $midGrey
-
+			pointer-events: none
 
 	i
 		-webkit-transition: color 0.5s
@@ -320,6 +318,8 @@ section
 		.controls
 			width: 100%
 			margin-bottom: 18px
+			&.hide
+				visibility: hidden
 
 		.window
 			width: 428px

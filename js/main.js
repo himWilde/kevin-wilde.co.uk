@@ -4,6 +4,7 @@ var kw;
 
     var showProject,
         loadData,
+        data,
         index,
         bind,
         animating = false,
@@ -13,9 +14,10 @@ var kw;
         rowAmount,
         thumbOffset;
 
-    loadData = function (i) {
+    loadData = function () {
         $.getJSON('data/data.json', function(d) {
-            showProject(d.data[index]);
+            data = d.data;
+            showProject(data[index]);
         });
     };
 
@@ -94,7 +96,7 @@ var kw;
             .off('webkitAnimationEnd');
 
             if (otherClose) {
-                showProject();
+                showProject(data[index]);
                 otherClose = false;
             }
             else open = false;
@@ -145,11 +147,13 @@ var kw;
             '<i class="fa fa-times-circle"></i>'
         );
 
-        if (d.url === 'null') {
+        if (d.url === null) {
             $section.find('a').addClass('disabled').on('click', function() {
                 return false;
             });
         }
+
+        if (d.images.length == 1) $('.controls').addClass('hide');
 
         for (var i = 0; i < d.images.length; i++) {
             $section.find('.window').append('<img src="' + d.images[i] + '" alt="" />');

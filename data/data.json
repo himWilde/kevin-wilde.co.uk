@@ -10,12 +10,7 @@
             "visit": "Site unavailable",
             "url": null,
             "images": [
-                "img/work/img_ebay01.jpg",
-                "img/work/img_ebay02.jpg",
-                "img/work/img_ebay03.jpg",
-                "img/work/img_ebay04.jpg",
-                "img/work/img_ebay05.jpg",
-                "img/work/img_ebay06.jpg"
+                "img/work/img_wtag01.jpg"
             ]
         },
         {
@@ -25,8 +20,8 @@
             "overview": "For their Christmas campaign eBay Europe wanted to engage the public in a fun Christmas mood board creating competition. Users can pick from a list of images and create a board that sums up their feelings about Christmas. The site would support six languages and would go out across Europe",
             "responsibilites": "Using the backbone framework I was to create the site and give it a web app feel. I was the sole front-end developer on this project and therefore had to manage all front-end related tasks.",
             "tools": "jQuery, Sass, Backbone.js, Grunt, Git.",
-            "visit": "Visit site",
-            "url": "http://inspiration.ebay.eu/",
+            "visit": "Site unavailable",
+            "url": null,
             "images": [
                 "img/work/img_ebay01.jpg",
                 "img/work/img_ebay02.jpg",
